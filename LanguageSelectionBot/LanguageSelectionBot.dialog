@@ -86,14 +86,19 @@
             "inlineSeparator": ", "
           },
           "prompt": "${ChoiceInput_Prompt_TPoTat()}",
-          "choices": [
-            "English",
-            "Spanish"
-          ],
           "property": "user.languagePreference",
           "recognizerOptions": {
             "recognizeOrdinals": true
-          }
+          },
+          "choices": "=${LanguageChoices()}"
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "ht7Z75"
+          },
+          "property": "turn.locale",
+          "value": "=user.languagePreference"
         },
         {
           "$kind": "Microsoft.SendActivity",

@@ -1,0 +1,29 @@
+# LanguageChoices()
+-```
+[
+    {
+        "value": "en-us",
+        "synonyms": [
+            "english",
+        ],
+        "action": {
+            "type": "messageBack",
+            "title": "English",
+            "displayText": "English",
+            "text": "English"
+        }
+    },
+    {
+        "value": "es",
+        "synonyms": [
+            "spanish",
+        ],
+        "action": {
+            "type": "messageBack",
+            "title": "Spanish",
+            "displayText": "Spanish",
+            "text": "Spanish"
+        }
+    }
+]
+```

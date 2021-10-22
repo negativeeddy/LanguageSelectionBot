@@ -29,4 +29,9 @@
 # SendActivity_CuvouO_text()
 - hola!
 # SendActivity_SKVOb8()
--
+[Activity
+    Text = ${SendActivity_SKVOb8_text()}
+]
+
+# SendActivity_SKVOb8_text()
+- ok, hablaré en español

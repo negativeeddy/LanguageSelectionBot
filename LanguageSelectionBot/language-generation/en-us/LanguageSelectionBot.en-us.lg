@@ -28,7 +28,7 @@
 ]
 
 # SendActivity_SKVOb8_text()
-- Switching to ${user.languagePreference}
+- ok, I'll speak in English
 # SendActivity_CuvouO()
 [Activity
     Text = ${SendActivity_CuvouO_text()}

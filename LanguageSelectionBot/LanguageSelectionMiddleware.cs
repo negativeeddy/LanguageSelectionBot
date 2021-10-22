@@ -22,15 +22,8 @@ namespace LanguageSelectionBot
             string language = await prop.GetAsync(turnContext);
             if (!string.IsNullOrEmpty(language))
             {
-                string newLocale =  language switch
-                {
-                    "Spanish" => "es",
-                    // default to english
-                    _ => "en-us"
-                };
-
-                turnContext.Activity.Locale = newLocale;
-                ((TurnContext)turnContext).Locale = newLocale;
+                turnContext.Activity.Locale = language;
+                ((TurnContext)turnContext).Locale = language;
             }
 
             await next(cancellationToken);
