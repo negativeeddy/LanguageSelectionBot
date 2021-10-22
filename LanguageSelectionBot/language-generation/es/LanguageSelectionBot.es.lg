@@ -1,0 +1,32 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Bienvenido a tu bot.
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Lo siento, no entendí eso.
+# ChoiceInput_Prompt_TPoTat()
+[Activity
+    Text = ${ChoiceInput_Prompt_TPoTat_text()}
+]
+
+# ChoiceInput_Prompt_TPoTat_text()
+- ¿Qué idioma te gustaría que usara?
+# SendActivity_CuvouO()
+[Activity
+    Text = ${SendActivity_CuvouO_text()}
+]
+
+# SendActivity_CuvouO_text()
+- hola!
+# SendActivity_SKVOb8()
+-

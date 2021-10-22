@@ -1,0 +1,39 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to your bot.
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that.
+# ChoiceInput_Prompt_TPoTat()
+[Activity
+    Text = ${ChoiceInput_Prompt_TPoTat_text()}
+]
+
+# ChoiceInput_Prompt_TPoTat_text()
+- What language would you like me to use?
+# SendActivity_SKVOb8()
+[Activity
+    Text = ${SendActivity_SKVOb8_text()}
+]
+
+# SendActivity_SKVOb8_text()
+- Switching to ${user.languagePreference}
+# SendActivity_CuvouO()
+[Activity
+    Text = ${SendActivity_CuvouO_text()}
+]
+
+# SendActivity_CuvouO_text()
+- hello there!
+- hi!
